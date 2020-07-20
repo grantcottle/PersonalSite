@@ -14,7 +14,7 @@ import page from './documents/page'
 import siteSettings from './documents/siteSettings'
 import route from './documents/route'
 import submissionForm from './documents/contactForm'
-import client form './documents/client'
+import client from './documents/client'
 
 import experiment from './objects/experiment'
 import simpleBlockContent from './objects/simpleBlockContent'

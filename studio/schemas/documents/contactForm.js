@@ -27,8 +27,8 @@ export default {
     },
     {
       name: 'client',
-      type: 'object',
-      title: 'Client',
+      type: 'client',
+      title: 'Client'
       
     }
   ]

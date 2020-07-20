@@ -17,12 +17,6 @@ export default {
       name: 'message',
       type: 'text',
       title: 'Message'
-    },
-    {
-      name: 'role',
-      type: 'array',
-      title: 'Role',
-      of: [{type: 'string'}]
     }
   ]
 
