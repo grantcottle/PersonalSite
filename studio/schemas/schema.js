@@ -14,6 +14,7 @@ import page from './documents/page'
 import siteSettings from './documents/siteSettings'
 import route from './documents/route'
 import submissionForm from './documents/contactForm'
+import client form './documents/client'
 
 import experiment from './objects/experiment'
 import simpleBlockContent from './objects/simpleBlockContent'
@@ -43,6 +44,7 @@ export default createSchema({
     // Our custom types
     .concat([
       submissionForm,
+      client,
       latex,
       localeString,
       variation,

@@ -8,7 +8,7 @@ export default {
   name: 'submission.form',
   type: 'document',
   title: 'Form submission',
-  readOnly: true,
+  readOnly: false,
   fields: [
     {
       name: 'title',
@@ -26,32 +26,10 @@ export default {
       title: 'Created at'
     },
     {
-      name: 'data',
+      name: 'client',
       type: 'object',
-      title: 'Data',
-      fields: [
-        {
-          name: 'email',
-          type: 'email',
-          title: 'Email'
-        },
-        {
-          name: 'name',
-          type: 'string',
-          title: 'Name'
-        },
-        {
-          name: 'message',
-          type: 'text',
-          title: 'Message'
-        },
-        {
-          name: 'role',
-          type: 'array',
-          title: 'Role',
-          of: [{type: 'string'}]
-        }
-      ]
+      title: 'Client',
+      
     }
   ]
 }
