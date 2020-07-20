@@ -8,7 +8,7 @@ const Footer = ({ siteTitle }) => (
         <div className="flex-1 mb-6">
           <a
             className="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-            href="#"
+            href="/"
           >
             <svg
               className="h-8 fill-current inline"
@@ -37,9 +37,8 @@ const Footer = ({ siteTitle }) => (
           <p className="uppercase text-gray-500 md:mb-6">Links</p>
           <ul className="list-reset mb-6">
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="https://www.tailwindtoolbox.com/templates/landing-page">
+              <a href="#">
                 <span className="hover:underline text-gray-800 hover:text-orange-500">
-                  Page theme
                 </span>
               </a>
             </li>
@@ -81,15 +80,15 @@ const Footer = ({ siteTitle }) => (
           <ul className="list-reset mb-6">
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="https://twitter.com/sanity_io"
+                href="https://dev.to/grantmaster89"
                 className="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
-                Twitter
+              Dev 
               </a>
             </li>
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="https://www.linkedin.com/company/sanity-io/"
+                href="https://www.linkedin.com/in/grant-cottle"
                 className="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
                 Linkedin
@@ -110,7 +109,7 @@ const Footer = ({ siteTitle }) => (
             </li>
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="https://www.sanity.io/contact"
+                href="https://distracted-hermann-e89322.netlify.app"
                 className="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
                 Contact

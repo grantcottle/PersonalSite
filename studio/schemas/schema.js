@@ -13,6 +13,8 @@ import post from './documents/post'
 import page from './documents/page'
 import siteSettings from './documents/siteSettings'
 import route from './documents/route'
+import submissionForm from './documents/contactForm'
+import client from './documents/client'
 
 import experiment from './objects/experiment'
 import simpleBlockContent from './objects/simpleBlockContent'
@@ -21,7 +23,7 @@ import * as plugs from './plugs'
 import plugDefaultFields from './plugs/_plugDefaultFields'
 
 // Object types
-import { instagram, videoEmbed } from './objects/embeds'
+import {instagram, videoEmbed} from './objects/embeds'
 import cta from './objects/cta'
 import bodyPortableText from './objects/bodyPortableText'
 import excerptPortableText from './objects/excerptPortableText'
@@ -33,7 +35,7 @@ import openGraph from './objects/openGraph'
 import latex from './latex'
 
 const allPlugs = Object.values(plugs).map((plug) => {
-  return { ...plug, fields: plugDefaultFields.concat(plug.fields) }
+  return {...plug, fields: plugDefaultFields.concat(plug.fields)}
 })
 
 export default createSchema({
@@ -41,6 +43,8 @@ export default createSchema({
   types: schemaTypes // Built-in types
     // Our custom types
     .concat([
+      submissionForm,
+      client,
       latex,
       localeString,
       variation,
@@ -61,7 +65,7 @@ export default createSchema({
       instagram,
       videoEmbed,
       bodyPortableText,
-      excerptPortableText,
+      excerptPortableText
     ])
-    .concat(allPlugs),
+    .concat(allPlugs)
 })
