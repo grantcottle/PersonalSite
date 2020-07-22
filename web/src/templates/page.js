@@ -113,8 +113,9 @@ const Page = (props) => {
     <Layout navMenuItems={menuItems} textWhite={true}>
       <SEO
         title={pageTitle}
-        description={site.description}
-        keywords={site.keywords}
+        description={site.openGraph.description}
+        keywords={site.openGraph.keywords}
+        image={site.openGraph.image}
         bodyAttr={{
           class: "leading-normal tracking-normal text-white gradient",
         }}
