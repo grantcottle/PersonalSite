@@ -115,6 +115,7 @@ const Page = (props) => {
         title={pageTitle}
         description={site.description}
         keywords={site.keywords}
+        image={site.image}
         bodyAttr={{
           class: "leading-normal tracking-normal text-white gradient",
         }}
